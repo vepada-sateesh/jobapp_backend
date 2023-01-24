@@ -17,7 +17,7 @@ const chekadmin = (req, res, next) => {
 };
 app.use("/user", userRoute);
 app.get("/", (req, res) => {
-  res.send("welcone to mock12");
+  res.send("welcone to mock13");
 });
 
 const auth = (req, res, next) => {
